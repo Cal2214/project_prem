@@ -1,6 +1,6 @@
 # 🏆 Premier League Match Predictor 
 
-This project uses machine learning to predict the outcome of English Premier League (EPL) football matches. Given two teams, it estimates the chances of a home win, away win, or draw — based on recent form, goals, and more.
+This project uses machine learning to predict the outcome of English Premier League (EPL) football matches. Given two teams, it estimates the chances of a home win, away win, or draw based on recent form, goals, and more.
 
 ## 🔧 Features
 
@@ -18,5 +18,5 @@ This project uses machine learning to predict the outcome of English Premier Lea
 
 ## 🗃️ Data Sources
 
-- Match results from [https://www.bbc.co.uk/]([https://www.football-data.co.uk/](https://www.bbc.co.uk/sport/football/premier-league/scores-fixtures/2024-08))
+- Match results from [BBC Sport](https://www.bbc.co.uk/sport/football/premier-league/scores-fixtures/2024-08)
 - Features match outcomes, team forms, and win rates
