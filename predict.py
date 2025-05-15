@@ -7,7 +7,9 @@ from sklearn.metrics import classification_report
 
 
 # Load the dataset
-df = pd.read_csv('prem_result_final.csv')
+# df = pd.read_csv('prem_result_final.csv')
+df = pd.read_csv('prem_result_increase.csv')
+
 
 # Feature columns
 X = df[['HomeGoals','AwayGoals','HomeWinRate','AwayWinRate','HomeH2HWinRate','AwayH2HWinRate','HomeRecentForm','AwayRecentForm','HomeTeam_Arsenal','HomeTeam_AstonVilla','HomeTeam_Bournemouth','HomeTeam_Brentford','HomeTeam_Brighton','HomeTeam_Chelsea','HomeTeam_Crystal Palace','HomeTeam_Everton','HomeTeam_Fulham','HomeTeam_Ipswich','HomeTeam_Leicester','HomeTeam_Liverpool','HomeTeam_ManCity','HomeTeam_ManUtd','HomeTeam_Newcastle','HomeTeam_NottmForest','HomeTeam_Southampton','HomeTeam_Tottenham','HomeTeam_WestHam','HomeTeam_Wolves','AwayTeam_Arsenal','AwayTeam_AstonVilla','AwayTeam_Bournemouth','AwayTeam_Brentford','AwayTeam_Brighton','AwayTeam_Chelsea','AwayTeam_Crystal Palace','AwayTeam_Everton','AwayTeam_Fulham','AwayTeam_Ipswich','AwayTeam_Leicester','AwayTeam_Liverpool','AwayTeam_ManCity','AwayTeam_ManUtd','AwayTeam_Newcastle','AwayTeam_NottmForest','AwayTeam_Southampton','AwayTeam_Tottenham','AwayTeam_WestHam','AwayTeam_Wolves']]
